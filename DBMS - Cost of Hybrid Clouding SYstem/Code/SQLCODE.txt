@@ -1,0 +1,34 @@
+--Function to execute queries and extract cost and duaration of a query 
+CREATE OR REPLACE FUNCTION query_cost(
+      queries text[],
+      query OUT text, cost OUT float8, duration OUT float8
+   ) RETURNS SETOF record LANGUAGE plpgsql STRICT AS
+$$DECLARE
+   i integer;
+   p json;
+BEGIN
+   /* loop through input queries */
+   FOR i IN array_lower(queries, 1)..array_upper(queries, 1) LOOP
+      query := queries[i];
+      /* get execution plan in JSON */
+      EXECUTE 'EXPLAIN (ANALYZE, FORMAT JSON) ' || query INTO p;
+      /* extract total cost and execution time */
+      SELECT p->0->'Plan'->>'Total Cost',
+             p->0->'Plan'->>'Actual Total Time'
+         INTO cost, duration;
+      /* return query, cost and duration */
+      RETURN NEXT;
+   END LOOP;
+END;$$;
+
+
+--Calls the function query_cost and executes the function 
+SELECT *
+FROM query_cost(
+        ARRAY[
+
+           'Your Query Goes Here'
+   
+        ]
+     )
+ORDER BY duration DESC;
