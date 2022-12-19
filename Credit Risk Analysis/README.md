@@ -1,5 +1,4 @@
 # CREDIT RISK ANALYSIS
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg). 
 
 #### -- Project Status: [Completed]
 
@@ -11,7 +10,6 @@ The purpose of this project is aims to classify people’s credit card status fr
 * Machine Learning
 * Data Visualization
 * Predictive Modeling
-* etc.
 
 ### Technologies
 * Jupyter Notebook 
@@ -65,24 +63,12 @@ dataset with balanced portions of target categories.
 
 5. Follow setup [instructions](Link to file)
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
 ## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
+#### Team Members:
 
 |Name     |  Slack Handle   | 
 |---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+|Nghi Nguyen (https://github.com/hoangkhanhnghi04/my-repository)
+|Dhruv Jain (https://github.com/slushi7/Credit_Risk_Analysis)
+|Edward Montoya
+|Tam Huynh
