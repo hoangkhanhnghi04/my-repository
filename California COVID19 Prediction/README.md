@@ -4,7 +4,6 @@
 
 ## Project Intro/Objective
 The purpose of this project is to find key features that have a correlation with predicting, and modeling future COVID-19 cases in the state of California. 
-There currently exist models that attempt to tackle this question, but they are primarily focused on a country level and are limited in feature scope.
 
 ### Methods Used
 * Inferential Statistics
