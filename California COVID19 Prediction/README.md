@@ -1,4 +1,4 @@
-# CREDIT RISK ANALYSIS
+# COVID-19 Cases Prediction Models And Important Features in California
 
 #### -- Project Status: [Completed]
 
