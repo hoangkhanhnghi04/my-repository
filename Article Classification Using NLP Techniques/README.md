@@ -1,14 +1,14 @@
-# COVID-19 Cases Prediction Models And Important Features in California
+# Article Classification Using Natural Processing Techniques 
 
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is to find key features that have a correlation with predicting, and modeling future COVID-19 cases in the state of California. 
+The purpose of this project is to classify articles with article link input, attach NER tags to identity person, location, or organization, and summarize the articles.
 
 ### Methods Used
 * Inferential Statistics
 * Data Visualization
-* Nature Processing Language
+* Natural Processing Language
 * Deep Learning
 * Predictive Modeling
 
